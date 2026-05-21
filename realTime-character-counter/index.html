@@ -7,6 +7,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="container">
+      <h2>Real-time Character Counter</h2>
+      <textarea
+        id="text-input"
+        placeholder="Start typing..."
+        maxlength="50"
+      ></textarea>
+      <div class="counters-container">
+        <p id="char-count">
+          Characters Count: <span class="total-count">0</span>
+        </p>
+        <p id="char-limit">
+          characters Remaining: <span class="remain"></span>
+        </p>
+      </div>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
