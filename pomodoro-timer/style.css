@@ -17,9 +17,11 @@ body {
 }
 
 .container #timer {
-  font-size: 24px;
+  font-size: 32px;
   font-size: 700;
+  font-weight: 800;
   margin-bottom: 24px;
+  color: #d11528;
 }
 
 .container .timerInput {
