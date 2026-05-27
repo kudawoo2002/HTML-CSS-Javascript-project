@@ -22,6 +22,17 @@ body {
   margin-bottom: 24px;
 }
 
+.container .timerInput {
+  max-width: 50%;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 10px;
+  margin-bottom: 34px;
+  outline: solid 1px #9c8f8f;
+  text-align: center;
+  font-size: 32px;
+}
+
 .btn-container {
   display: flex;
   justify-content: space-around;
